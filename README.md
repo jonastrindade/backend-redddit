@@ -10,6 +10,8 @@ Escopo:
 Equipe: 
 * Felipe Mingote - 2015033216
 * Jonas Trindade - 2016118533
+* Lucas Marra - 
+* Marcelo Medeiros - 
 
 Tecnologia:
 * Ruby on Rails
