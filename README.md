@@ -9,9 +9,9 @@ Escopo:
 
 Equipe: 
 * Felipe Mingote - 2015033216
-* Jonas Trindade - 2016118533
+* Jonas Trindade - 2016118533 [BACKEND]
 * Lucas Marra - 
-* Marcelo Medeiros - 
+* Marcelo Medeiros - 2018047030 [FRONTEND]
 
 Tecnologia:
 * Ruby on Rails
@@ -19,4 +19,6 @@ Tecnologia:
 * HTML e CSS
 * Postgress
 * lint - RuboCop Rails
-* JavaScript - JQuery
+* JavaScript - React
+* Axios
+* React query
