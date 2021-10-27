@@ -10,7 +10,7 @@ Escopo:
 Equipe: 
 * Felipe Mingote - 2015033216
 * Jonas Trindade - 2016118533 [BACKEND]
-* Lucas Marra - 
+* Lucas Marra - 2020420605 [BACKEND]
 * Marcelo Medeiros - 2018047030 [FRONTEND]
 
 Tecnologia:
