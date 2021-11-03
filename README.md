@@ -22,3 +22,6 @@ Tecnologia:
 * JavaScript - React
 * Axios
 * React query
+
+Tasks:
+https://github.com/jonastrindade/tp-pds/projects/1
