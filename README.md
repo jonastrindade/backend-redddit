@@ -3,6 +3,8 @@
 Nome do Sistema:
 * PDS-Reddit 
 
+Board:
+* https://github.com/jonastrindade/tp-pds/projects/1
 
 Escopo:
 * Um sistema que se comportará como um fórum de assuntos diversos divididos por temas, na qual as postagens poderão ser com textos e imagens. Os usuários poderão tando fazerem postagens quanto reagis a postagens já existentes no sistema com curtidas e comentários. Vai existir uma feature de login e senha inicial para identificar cada usuário na hora de comentar e postar no sistema. 
