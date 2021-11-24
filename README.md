@@ -3,6 +3,9 @@
 Nome do Sistema:
 * PDS-Reddit 
 
+Projeto frontend:
+* https://github.com/marcelolima381/app-reddit
+
 Board:
 * https://github.com/jonastrindade/tp-pds/projects/1
 
