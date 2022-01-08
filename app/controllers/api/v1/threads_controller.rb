@@ -23,7 +23,7 @@ module Api
 
       # Lucas update
 	  
-	  # DELETE /api/v1/threads/1
+	    # DELETE /api/v1/threads/1
       def destroy
         @thread.destroy      
       end
