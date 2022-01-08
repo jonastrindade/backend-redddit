@@ -22,6 +22,11 @@ module Api
       end
 
       # Lucas update
+	  
+	  # DELETE /api/v1/threads/1
+      def destroy
+        @thread.destroy      
+      end
 
       private
 
