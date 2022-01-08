@@ -11,11 +11,17 @@ module Api
         render json: @thread
       end
 
-      # Mingote create
+      # POST /api/v1/threads
+      def create
+        @thread = Thread.new(thread_params)
+        if @thread.save
+          render json: @thread, status: :created
+        else
+          render json: @thread.errors, status: :unprocessable_entity
+        end
+      end
 
       # Lucas update
-
-      # Mingote destroy
 
       private
 
