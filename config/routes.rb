@@ -5,8 +5,8 @@ Rails.application.routes.draw do
 
   namespace :api do
     namespace :v1 do
-      resources :status, only: [:index]
       resources :threads
+      resources :status, only: [:index]
     end
   end
 end
