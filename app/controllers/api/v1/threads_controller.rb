@@ -34,7 +34,7 @@ module Api
         end
       end
 	  
-	  # DELETE /api/v1/threads/1
+	    # DELETE /api/v1/threads/1
       def destroy
         @thread.destroy      
       end
