@@ -4,7 +4,11 @@ module Api
 
       before_action :set_thread, only: [:show, :update, :destroy]      
 
-      # Lucas index
+      # GET /api/v1/threads
+      def index
+        @threads = Thread.all
+        render json: @threads
+      end
 
       # GET /api/v1/threads/1
       def show
