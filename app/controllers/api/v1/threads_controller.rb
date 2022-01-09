@@ -25,7 +25,14 @@ module Api
         end
       end
 
-      # Lucas update
+      # PATCH/PUT /api/v1/threads/1
+      def update
+        if @thread.update(thread_params)
+          render json: @thread
+        else
+          render json: @thread.errors, status: :unprocessable_entity
+        end
+      end
 	  
 	  # DELETE /api/v1/threads/1
       def destroy
