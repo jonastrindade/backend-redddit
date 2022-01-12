@@ -1,13 +1,12 @@
 require 'rails_helper'
 
-describe "Api::V1::ThreadsController", :type => :request do
-  let!(:thread) { FactoryBot.create(:thread) }
+describe "Api::V1::PostsController", :type => :request do
+  let!(:post) { FactoryBot.create(:post) }
   
-  before { get "/api/v1/threads/#{thread.id}" }
+  before { get "/api/v1/posts/#{post.id}" }
   
-  it 'return one Thread' do
-    expect(JSON.parse(response.body)["id"].class).to eq(Integer)
-    expect(JSON.parse(response.body)["name"].class).to eq(String)
+  it 'return one Post' do
+    expect(JSON.parse(response.body)["title"].class).to eq(String)
     expect(JSON.parse(response.body)["description"].class).to eq(String)
   end
   
