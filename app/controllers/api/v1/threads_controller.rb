@@ -1,6 +1,6 @@
 module Api
   module V1
-    class Api::V1::ThreadsController < ApplicationController
+    class ThreadsController < ApplicationController
 
       before_action :set_thread, only: [:show, :update, :destroy]      
 
