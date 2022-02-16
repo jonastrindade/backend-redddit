@@ -14,6 +14,9 @@ describe "Api::V1::CommentsController", :type => :request do
 
     expect(JSON.parse(response.body)).to eq({"post"=>["must exist"]})
     expect(response).to have_http_status(:unprocessable_entity)
+
+    # teste
+    # teste
   end
 
 end
